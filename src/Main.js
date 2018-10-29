@@ -12,8 +12,8 @@ const Main = (props) => (
         <section>
             <span>Rendering Page 1 or 2 below:</span>
             <Switch>
-                <Route path="/page-1" Component={Page1} />
-                <Route path="/page-2" Component={Page2} />
+                <Route path="/page-1" component={Page1} />
+                <Route path="/page-2" component={Page2} />
                 <Redirect to="/page-1" />
             </Switch>
         </section>
